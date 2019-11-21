@@ -23,9 +23,7 @@
   edit the page by going to http://esp32fs.local/edit
 */
 #include <Arduino.h>
-// #include "esp32_adc.h"
 #include "esp_adc_cal.h"
-#include <WiFi.h>
 #include <Button2.h>
 
 #define ENABLE_SSD1306
@@ -37,7 +35,7 @@ Button2 *pBtn = nullptr;
 
 #define ADC_PINS 35
 
-int loop_mode = 0;
+
 
 enum {
     WIFI_SCAN = 32,
@@ -88,9 +86,9 @@ int vref = 1100;
 #include <SPIFFS.h>
 #endif
 
-const char* ssid = "lucent";
+const char* ssid = "cisco.irk.ru";
 const char* password = "9501203230";
-const char* host = "esp32fs";
+const char* host = "Ve!c0dinC1n@";
 WebServer server(80);
 //holds the current upload
 File fsUploadFile;
@@ -457,6 +455,8 @@ void setup(void) {
   
 
 }
+
+int loop_mode = 0;
 
 void loop(void) {
   server.handleClient();
