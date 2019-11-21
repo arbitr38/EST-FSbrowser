@@ -87,8 +87,8 @@ int vref = 1100;
 #endif
 
 const char* ssid = "cisco.irk.ru";
-const char* password = "9501203230";
-const char* host = "Ve!c0dinC1n@";
+const char* password = "Ve!c0dinC1n@";
+const char* host = "esp32fs";
 WebServer server(80);
 //holds the current upload
 File fsUploadFile;
