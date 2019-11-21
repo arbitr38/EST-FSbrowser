@@ -35,7 +35,7 @@ Button2 *pBtn = nullptr;
 
 #define ADC_PINS 35
 
-
+int loop_mode = 0;
 
 enum {
     WIFI_SCAN = 32,
@@ -456,7 +456,6 @@ void setup(void) {
 
 }
 
-int loop_mode = 0;
 
 void loop(void) {
   server.handleClient();
