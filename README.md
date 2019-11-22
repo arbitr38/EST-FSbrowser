@@ -14,3 +14,4 @@ https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/download/1.0/ESP32F
 Перезагрузить Arduino IDE. 
 
 + Установить поддержку esp32 через менеджер плат в Arduino IDE
++ Для прошивки выбрать плату ESP32 Wrover
