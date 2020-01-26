@@ -17,3 +17,5 @@ https://github.com/esp8266/arduino-esp8266fs-plugin/releases/download/0.5.0/ESP8
 
 + Установить поддержку esp32/esp8266 через менеджер плат в Arduino IDE
 + Для прошивки выбрать плату ESP32 Wrover или esp 8266 generic
+
+.
